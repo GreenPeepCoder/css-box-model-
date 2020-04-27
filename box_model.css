@@ -1,4 +1,9 @@
-div {width: 200px;height: 200px;padding: 50px;border: 5px solid black;}
+#first-div, #second-div {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  border: 5px solid black;
+}
 
 #first-div {
   background-color: #39cccc;
@@ -11,4 +16,25 @@ div {width: 200px;height: 200px;padding: 50px;border: 5px solid black;}
 
 p {
   background-color: #7fdbff;
+}
+
+.min-height-div {
+  min-height: 10px;
+}
+
+.img-1-container {
+  width: 200px;
+  height: 600px;
+  background: #bb24f7;
+}
+
+.img-1-container img {
+  width: 100%;
+}
+
+.img-2-container {
+  display: inline-block;
+  min-width: 200px;
+  height: 600px;
+  background: #bb24f7;
 }
